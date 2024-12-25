@@ -48,5 +48,3 @@ Thumbs.db
 .git/
 *.orig
 
-# Generated requirements
-requirements.txt
