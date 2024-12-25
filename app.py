@@ -11,9 +11,11 @@ def create_app():
         """
         return render_template('index.html')
 
-
     return app
 
+
+app = create_app()
+
+
 if __name__ == '__main__':
-    app = create_app()
     app.run(debug=False)
