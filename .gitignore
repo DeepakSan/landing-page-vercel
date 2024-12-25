@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Hatch build artifacts
+*.egg-info/
+*.whl
+dist/
+build/
+
+# Flask and Python environment files
+instance/
+.env
+*.env
+*.venv
+venv/
+ENV/
+
+# Flask-specific
+.mypy_cache/
+.pytest_cache/
+*.log
+
+
+# Pytest, coverage, and test artifacts
+coverage.xml
+.coverage
+htmlcov/
+.tox/
+.cache/
+nosetests.xml
+*.cover
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+*.orig
+
+# Generated requirements
+requirements.txt
